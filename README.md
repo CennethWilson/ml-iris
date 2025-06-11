@@ -49,13 +49,13 @@ To run the project locally, you'll need:
 2. **Download dataset through the terminal:**
 
    ```bash
-   kaggle datasets download -d adilshamim8/cost-of-international-education
+   kaggle datasets download -d uciml/iris
 
 3. **Extract the dataset zip:**
 
    ```bash
-   with zipfile.ZipFile("cost-of-international-education.zip", "r") as zip_ref:
-     zip_ref.extractall("cost-of-international-education")
+   with zipfile.ZipFile("iris.zip", "r") as zip_ref:
+      zip_ref.extractall("iris")
 
 4. **Run the code:**
 
