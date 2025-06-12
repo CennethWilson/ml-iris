@@ -6,12 +6,9 @@
 
 **Iris Classifier** is project that analyzes:
 
-- Tuition Fees Distribution
-- Average Tuition Fees per Country
-- Living Cost vs Tuition
-- Tuition Fees Distribution by Program
-- Correlation Between Cost Components
-- Global Map of Annual Study Abroad
+- 
+- Classify Features based on Iris Species and evaluates Accuracy, using:
+  - 
 
 ---
 
@@ -70,7 +67,6 @@ To run the project locally, you'll need:
 ![Alt text](Figure_3.png?raw=true "Title")
 ![Alt text](Figure_4.png?raw=true "Title")
 ![Alt text](Figure_5.png?raw=true "Title")
-![Alt text](Figure_6.png?raw=true "Title")
 
 ## 📃 License
 
