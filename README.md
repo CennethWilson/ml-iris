@@ -6,9 +6,19 @@
 
 **Iris Classifier** is project that analyzes:
 
-- 
-- Classify Features based on Iris Species and evaluates Accuracy, using:
-  - 
+- Analyze Iris Species pattern based on Sepal Features
+- Analyze Iris Species pattern based on Petal Features
+- Analyze Iris Features Distribution
+- Analyze Iris Features Correlation
+- Classify Features based on Iris Species and evaluates Accuracy and Standard Deviation, using:
+  - Linear SVC (Support Vector Classification)
+  - K-Neighbors Classifier
+  - SVC
+  - Random Forest
+  - Gradient Boosting
+  - Voting
+  - Logistic Regression
+  - Decision Tree
 
 ---
 
@@ -17,12 +27,11 @@
 - [Python](https://www.python.org/) — primary programming language
 - [PyCharm](https://www.jetbrains.com/pycharm/) — IDE
 
+- [Scikit-learn](https://scikit-learn.org/stable/) — machine learning
 - [Pandas](https://pandas.pydata.org/) — data manipulation
 - [NumPy](https://numpy.org/) — number operations
 - [Matplotlib](https://matplotlib.org/) — plotting
 - [Seaborn](https://seaborn.pydata.org/) — data visualization
-- [SciPy](https://scipy.org/) — linear regression
-- [GeoPandas](https://geopandas.org/en/stable/) — map data
 
 ---
 
@@ -41,7 +50,7 @@ To run the project locally, you'll need:
 1. **Install the necessary libraries:**
 
    ```bash
-   pip install pandas numpy matplotlib seaborn scipy geopandas kaggle
+   pip install scikit-learn pandas numpy matplotlib seaborn kaggle
 
 2. **Download dataset through the terminal:**
 
